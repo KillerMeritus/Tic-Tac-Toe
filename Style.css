@@ -9,7 +9,7 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 
       
@@ -17,8 +17,8 @@ body{
 }
 
 .container {
-    height: 70vh;
-    width:70vmin;
+    height: auto;
+    width:60vmin;
  
 
 }
@@ -54,3 +54,12 @@ body{
   .reset-btn:hover{
     opacity:.8;
   }
+
+.title{
+    font-size: 3.2rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+    color: #F9FAFB;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+}
